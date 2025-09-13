@@ -1,0 +1,894 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Myriad"
+}
+.container{
+  max-width: 1438px;
+  margin: auto;
+}
+ .mani-header-2{ background-color: rgb( 83, 128, 193 );
+    background-image: url(./image/background.jpg);
+    background-blend-mode: multiply;
+    height: 822px;
+    overflow: hidden;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.nav-bar{ background-color:rgba(83,128,193, 0.5);
+    overflow: hidden;
+    display: flex;
+    padding: 10px 16px;
+    justify-content: space-around;
+    align-items: center;
+
+}
+.nav-bar .nav-bar-logo{
+    width: 137px;
+    height: 92px;
+    
+}
+.navbar-menu{
+    display: flex;
+    justify-content:space-around;
+}
+.navbar-menu a{text-decoration: none;
+padding: 10px 16px;
+color:white;
+font-weight: bold;
+text-align: center;
+font-size: 20px;
+
+}
+.header-doc .text-heading{
+    text-align: center;
+    padding-top: 168px;
+padding-bottom: 48px;
+    color: white;
+
+}
+.header-doc .text-paragraph{
+    text-align: center;
+    text-align-last: center;
+    font-size: 20px;
+    font-weight: 500;
+    color:white;
+    padding-bottom: 36px;
+
+    
+}
+ .header-button{
+    display: flex;
+    justify-content: center;
+}
+.header-button .btn{
+    color: rgb( 255, 255, 255 );
+    text-align: center;
+    width: 322px;
+    border: none;
+    border-radius: 20px;
+    font-weight: bold;
+    text-transform: capitalize;
+    font-size: 20px;
+    font-family: "Poppins";
+    background-color: rgb( 237, 195, 21 );
+    padding: 16px 12px;
+} 
+/* card-section */
+ .card-main-2{
+    background-color: #5380c1;
+    height:922px;
+    padding-top: 94px;
+}
+.card-text{
+    text-align: center;
+}
+.text-head{
+font-size: 35px;
+font-weight: 900;
+color: white;
+padding-bottom: 50px;
+}
+.card-text .text-paragraph{
+    font-size: 20px;
+    color: white;
+    font-weight: 800;
+    margin-bottom: 50px;
+}
+.card-container{
+    display: flex;
+    gap:50px;
+    justify-content: center;
+}
+.card .card-image{
+    border-radius: 180px;
+}
+.card-content h2{
+    text-align: center;
+    margin-top: 34px;
+    color:white;
+}
+.card-content p{
+    color:white;
+    font-size: 16px;
+    margin-top: 26px;
+    text-align: center;
+}
+ /* promo-secction  */
+.card-promo-2{
+    height: 972px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color:#edc315 ;
+    background-blend-mode: multiply;
+    background-image: url(./image/background2..jpg);
+}
+.card-text-2 .text-head{
+    padding-top: 86px;
+    text-align: center;
+    padding-bottom: 56px;
+}
+.card-text-2 .text-paragraph{
+    text-align: center;
+    padding-bottom: 160px;
+    font-size: 20px;
+    color: white;
+    font-weight: 800;
+}
+.card-container-2{
+    display: flex;
+    gap:168px;
+    justify-content: center;
+}
+.card-2{ 
+    width: 250px;
+    height: 250px;
+    border: 5px solid white;
+    border-radius: 180px;
+}
+.card-content-2{
+    text-align: center;
+    padding:78px 32px 68px 32px;
+}
+.card-content-2 h2{
+    font-size:40px ;
+    color:white;
+    font-weight: bold;
+}
+.card-content-2 p{
+    color: white;
+    font-weight: 400; 
+} 
+/* division-one */
+.division-two{
+    height: 884px;
+    display: flex;
+    justify-content: center;
+    gap:200px;
+    align-items: center;
+    background-color: #1a60c3;
+}
+.text-division-one h1{
+    padding-bottom: 30px;
+    color: white;
+    text-align: center;
+    font-size: 40px;
+}
+.text-division-one p{
+text-align: center;
+font-weight: 500;
+font-size: 15px;
+line-height: 25px;
+color: white;}
+
+.division-image img{
+    width: 422px;
+    height: 422px;
+    border-radius: 360px;
+}
+.header-button-2{
+    display: flex;
+    justify-content: center;
+}
+.header-button-2 .btn-2{
+    color: rgb( 255, 255, 255 );
+    text-align: center;
+    width: 322px;
+    border: none;
+margin-top: 30px;
+    border-radius: 50px;
+    font-weight: bold;
+    text-transform: capitalize;
+    font-size: 20px;
+    font-family: "Poppins";
+    background-color: rgb( 237, 195, 21 );
+    padding: 14px 10px;
+}
+ 
+/* price-card*/
+.imp-card-doc{
+    height: 958px;
+    background-color: #5380c1;
+}
+.card-price-00{
+    padding-top: 93px;
+}
+.card-price-00 .card-price-00-heading{
+    font-size: 30px;
+    color:#fff;
+    padding-bottom: 70px;
+    font-weight: bold;
+    text-align: center;
+}
+.card-00{
+    text-align: center;
+    color:white;
+    margin-bottom: 103px;
+    
+}
+.card-price-2{
+    display: flex;
+    align-items:center;
+    padding-left: 10px;
+    gap:100px;
+    
+
+
+}
+.card-rs {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 372px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+}
+
+.card-heading {
+    margin: 0;
+    padding: 16px;
+    text-align: center;
+    color: #5380c1;
+    font-size: 1.25em;
+}
+
+.card-image-rs {
+    width: 30%;
+    padding-top: 30px;
+    position: relative;
+    left:130px;
+    
+}
+
+.card-content-rs {
+    display: flex;
+    flex-direction: column;
+    padding: 16px;
+}
+
+ .card-price-rs {
+    margin-top: 40px;
+    font-size: 25px;
+    color:#5380c1;
+    font-weight: bold;
+    text-align: center;
+    
+}
+
+.card-description-rs {
+    margin: 16px 0;
+    color:#5380c1;  
+    text-align: center;
+    line-height: 1.5;
+}
+ .card-button{
+    color: rgb( 255, 255, 255 );
+    text-align: center;
+    width: 322px;
+    border: none;
+margin-top: 30px;
+    border-radius: 50px;
+    font-weight: bold;
+    text-transform: capitalize;
+    font-size: 20px;
+    font-family: "Poppins";
+    background-color: rgb( 237, 195, 21 );
+    padding: 14px 10px;
+} 
+/*end*/
+/* compused section*/
+.title-here-back-g{
+    background-color: #1a60c3;
+    height: 979px;
+}
+.title-division{
+    padding-top: 93px;
+}
+.title-division .card-price-00-heading{
+    
+        font-size: 30px;
+        color:#fff;
+        padding-bottom: 50px;
+        font-weight: bold;
+        text-align: center;
+    }
+    .title-division .card-00{
+        padding-bottom: 103px;
+    }
+    .title-flex-col{
+        display: flex;
+        gap:30px;
+        padding-bottom: 80px;
+        justify-content:center;
+        align-items: center;
+    }
+    .title-flex-col-2{
+        display: flex;
+        gap: 30px;
+        justify-content:center;
+        align-items: center;
+    }
+    .title-head{
+    color:white;
+    padding-bottom: 19px;
+    font-weight: bold;}
+.title-para{
+    color:white;
+    font-size: 20px;
+    font-weight: 500;
+}
+/* back-g */
+.background-i{    
+
+    height: 972px;
+    background-color: #edc315;
+    background-image: url(./image/background3.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-blend-mode: multiply;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+}
+.background-para{
+padding-bottom: 48px;
+    font-size: 40px;
+    word-spacing: 15px;
+    color: #fff;
+    text-align-last: center;
+    text-align: center;
+}
+.background-i .bacground-head{
+    text-align: center;
+    text-transform: capitalize;
+    font-weight: 400;
+    color:#fff;
+}
+/* footer */
+.footer-part{
+    height: 426px;
+    background-color: black;
+    padding-top: 86px;
+    display: flex;
+   gap:200px;
+   padding-left: 25px;
+    align-items: center;
+}
+.f-1{
+    color: #fff;
+}
+.f-1 .col-1-head{
+    padding-bottom: 34px;
+}
+.f-1 .col-para-2{
+    line-height: 40px;
+    font-weight: 300;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* responsive part
+@media (max-width:1200px) {
+    .container{
+        max-width: 1140px;
+    }
+
+/* price-card
+
+
+
+.card-price-2{
+    display: flex;
+    align-items:center;
+    flex-direction: column;
+    gap:20px;
+    
+
+
+}
+
+
+
+
+.card-image-rs {
+    width: 20%;
+    padding-top: 30px;
+    position: relative;
+    left:130px;
+    
+}
+}
+
+@media(max-width:992px) {
+    .container{
+        max-width: 960px;
+       
+    }
+    /* two section 
+.division-two{
+    display: flex;
+    gap:10px;
+    justify-content: center;
+     align-items: center;
+    }
+    .text-division-one h1{
+        padding-top: 44px;
+        color: white;
+        text-align: center;
+        font-size:2rem;
+    }
+    .mani-header-2{ background-color: rgb( 83, 128, 193 );
+        background-image: url(./image/background.jpg);
+        background-blend-mode: multiply;
+        height: 822px;
+        overflow: hidden;
+        background-position:center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    /*card section*
+.card-main-2{
+    padding-top:20px ;
+}
+.text-head{
+    font-size: 2rem;
+    padding-bottom: 5px;
+}
+.card-text .text-paragraph{
+    font-size: 1rem;
+    margin-bottom: 10px;
+
+}
+.card-container{
+    display:flex;
+    justify-content: center;
+    gap:10px;
+    align-items: center;
+    padding-top: 5px;
+  
+}
+.card-content h2{
+    text-align: center;
+    color:white;
+}
+.card .card-image{
+    width: 100%;
+    
+    border-radius: 180px;
+}
+.card-content h2{
+    margin-top: 5px;
+  
+}
+.card-content p{
+    font-size: 1rem;
+    margin-top: 10px;
+  
+}
+/* section-promo -->
+.card-promo-2{
+
+    background-position: center;
+ }
+.card-container-2{
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    gap:5px;
+  
+  
+}
+.card-2{ 
+    width: 250px;
+    height: 250px;
+    border-radius: 180px;
+}
+.card-text-2 .text-paragraph{
+padding-bottom: 100px;
+    font-size: 1rem;
+
+}
+.card-text-2 .text-head{
+    padding-top: 50px;
+    padding-bottom: 100px;
+}
+/* promo seection end */
+/*price-card
+.card-price-00{
+    padding-top: 10px;
+}
+.card-price-00 .card-price-00-heading{
+    font-size:2rem;
+    padding-bottom: 10px;
+  
+}
+.card-00{
+  
+    margin-bottom: 10px;
+    
+}
+.card-price-2{
+    display: flex;
+    align-items:center;
+   flex-direction: column;
+   gap:20px;
+
+}
+
+.card-image-rs {
+    width: 10%;
+    padding-top: 5px;
+    position: relative;
+    left:170px;
+    
+   
+}
+.card-content-rs {
+    display: flex;
+    flex-direction: column;
+    padding: 5px;
+}
+.card-price-rs {
+    margin-top: 10px;
+    font-size: 1rem;
+}
+.card-description-rs {
+
+    line-height: 1.5;
+}
+.card-button{
+    margin-top: 10px;
+    padding: 12px 9px;
+    position: relative;
+    left:20px;
+}
+/* fjff 
+.title-flex-col-2{
+    display: flex;
+    gap: 30px;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+}
+.title-flex-col{
+    display: flex;
+    gap:10px;
+    flex-direction: column;
+    padding-bottom: 10px;
+    justify-content:center;
+    align-items: center;
+}
+.title-division .card-00{
+    padding-bottom: 20px;
+}
+.title-division{
+    padding-top: 10px;
+}
+.title-division .card-price-00-heading{
+    font-size: 2rem;
+    padding-bottom: 5px;
+}
+.title-card img{
+    width: 40%;
+    position: relative;
+    left:40px;
+}
+.title-head{text-align: center;
+    padding-bottom:5px;
+  }
+  .title-para{
+  text-align: center;
+  }
+
+  .background-i{
+    display: flex;
+align-items: center;
+    background-position: center;
+  }
+  .background-para{
+    font-size: 1.5rem;
+    padding-bottom: 50px;
+  }
+  .footer-part{
+    gap:70px;
+
+}
+.f-1 .col-1-head{
+    padding-bottom: 10px;
+    padding-left: 5px;
+}
+.f1 .col-para-2{
+line-height: 15px;
+}
+}
+@media (max-width:768px) {
+    .container{max-width: 720px;
+        
+    }
+ .navbar-menu a{
+    font-size: 1rem;
+    padding: 6px;
+ }
+.nav-bar .nav-bar-logo{
+    
+    height: 20%;
+}
+.header-doc .text-heading{
+    padding-top: 90px;
+padding-bottom: 30px;
+    }
+    .mani-header-2{ background-color: rgb( 83, 128, 193 );
+        background-image: url(./image/background.jpg);
+        background-blend-mode: multiply;
+        height: 822px;
+        overflow: hidden;
+        background-position:center 20%;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+/*card section
+.card-main-2{
+    padding-top:20px ;
+}
+.text-head{
+    font-size: 2rem;
+    padding-bottom: 5px;
+}
+.card-text .text-paragraph{
+    font-size: 1rem;
+    margin-bottom: 10px;
+
+}
+.card-container{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap:30px;
+    padding-top: 5px;
+  
+}
+.card-content h2{
+    text-align: center;
+
+    color:white;
+}
+.card .card-image{
+    width: 45%;
+    position: relative;
+    left: 80px;
+    border-radius: 180px;
+}
+.card-content h2{
+    margin-top: 5px;
+  
+}
+.card-content p{
+    font-size: 1rem;
+    margin-top: 10px;
+  
+}
+/* section-promo 
+.card-promo-2{
+
+   background-position: center;
+}    
+.card-container-2{
+    display: flex;
+    gap:30px;
+    align-items: center;
+    justify-items: center;
+    flex-direction: column;
+  
+}
+.card-2{ 
+    width: 200px;
+    height: 200px;
+    border-radius: 180px;
+}
+.card-text-2 .text-paragraph{
+padding-bottom: 10px;
+    font-size: 1rem;
+
+}
+.card-text-2 .text-head{
+    padding-top: 40px;
+    padding-bottom: 30px;
+}
+/* two section 
+.division-two{
+display: flex;
+gap:20px;
+justify-content: center;
+ flex-direction: column;
+ align-items: center;
+}
+.text-division-one h1{
+    padding-top: 44px;
+    color: white;
+    text-align: center;
+    font-size:2rem;
+}
+/*price-card
+.card-price-00{
+    padding-top: 10px;
+}
+.card-price-00 .card-price-00-heading{
+    font-size:2rem;
+    padding-bottom: 10px;
+  
+}
+.card-00{
+  
+    margin-bottom: 10px;
+    
+}
+.card-price-2{
+    display: flex;
+    align-items:center;
+   flex-direction: column;
+   gap:20px;
+
+}
+
+.card-image-rs {
+    width: 10%;
+    padding-top: 5px;
+    position: relative;
+    left:170px;
+    
+   
+}
+.card-content-rs {
+    display: flex;
+    flex-direction: column;
+    padding: 5px;
+}
+.card-price-rs {
+    margin-top: 10px;
+    font-size: 1rem;
+}
+.card-description-rs {
+
+    line-height: 1.5;
+}
+.card-button{
+    width: 250px;
+    margin-top: 10px;
+    padding: 12px 9px;
+    position: relative;
+    left:50px;
+}
+/*  
+.title-flex-col-2{
+    display: flex;
+    gap: 30px;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+}
+.title-flex-col{
+    display: flex;
+    gap:10px;
+    flex-direction: column;
+    padding-bottom: 10px;
+    justify-content:center;
+    align-items: center;
+}
+.title-division .card-00{
+    padding-bottom: 20px;
+}
+.title-division{
+    padding-top: 10px;
+}
+.title-division .card-price-00-heading{
+    font-size: 2rem;
+    padding-bottom: 5px;
+}
+.title-card img{
+    width: 40%;
+    position: relative;
+    left:40px;
+}
+.title-head{text-align: center;
+    padding-bottom:5px;
+  }
+  .title-para{
+  text-align: center;
+  }
+  /* back-1 
+  .background-i{
+    display: flex;
+align-items: center;
+    background-position: center;
+  }
+  .background-para{
+    font-size: 1.5rem;
+    padding-bottom: 50px;
+  }
+
+.footer-part{
+    gap:20px;
+    padding-right:10px ;
+}
+.f-1 .col-1-head{
+    padding-bottom: 10px;
+    padding-left: 5px;
+}
+.f1 .col-para-2{
+line-height: 15px;
+}}*/
+ 
